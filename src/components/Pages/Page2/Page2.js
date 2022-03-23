@@ -35,14 +35,14 @@ class Page2 extends React.Component{
     entryEventHandler=()=>{
         
         this.secondPageTween
-        .delay(0.5)
+        .delay(0)
         .fromTo(this.headingElememnt,1.5,{opacity:0,y: -10},{opacity:1,y:0})
         .fromTo(this.imageElementBack,1,{opacity:0,x:20},{opacity:0.95,x:0},'-=0.5')
         .fromTo(this.staticElement,0.75,{opacity:0,x:10},{opacity:0.90,x:0},)
-        .fromTo(this.para1,1,{opacity:0,x: -10},{opacity:1,x:0,delay:0.5},'-=1')
-        .fromTo(this.para2,2,{opacity:0,x: -10},{opacity:1,x:0,delay:0.75})
-        .fromTo(this.para3,2,{opacity:0,x: -10},{opacity:1,x:0,delay:1})
-        .fromTo(this.para4,2,{opacity:0,x: -10},{opacity:1,x:0,delay:1})
+        .fromTo(this.para1,1,{opacity:0,x: -10},{opacity:1,x:0,},'-=1')
+        .fromTo(this.para2,2,{opacity:0,x: -10},{opacity:1,x:0,})
+        .fromTo(this.para3,2,{opacity:0,x: -10},{opacity:1,x:0,})
+        .fromTo(this.para4,2,{opacity:0,x: -10},{opacity:1,x:0,})
        .play();
 
         this.secondPageTween.eventCallback("onComplete",this.props.allowScrollEvent);

@@ -128,6 +128,7 @@ class PageNavigation extends React.Component{
 
         return(
             <div style={this.props.style} className={classes.leftBar}>
+                <h3 className = 'h' onClick={()=>{this.props.navClickEventHandler(1);this.props.stopAnimation()}}>Home</h3>
                <div className={classes.pageNavContainer}>
                    <div id="navContainer" className={classes.pageNavs}>
                        <div className={(classes.pageLinks)}>

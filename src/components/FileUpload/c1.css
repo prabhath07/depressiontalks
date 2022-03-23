@@ -1,0 +1,18 @@
+.file{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    flex-direction: column;
+}
+
+.but{
+    width:15vw;
+    height:8vh;
+    margin-top: 2vh;
+}
+
+body {
+    background-color: white;
+}

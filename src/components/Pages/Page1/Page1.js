@@ -31,7 +31,7 @@ class Page1 extends React.Component{
         
        
         this.myTween
-        .delay(1)
+        .delay(0)
         .fromTo(this.headingElementSpan1,1,{opacity:0,y: -10},{opacity:1,y:0})
     
         .fromTo(this.headingElementSpan2,2,{opacity:0,y: -10},{opacity:1,y: 0})
@@ -46,7 +46,7 @@ class Page1 extends React.Component{
         this.myTween
         
         .fromTo(this.headingElementSpan1,1,{opacity:1,y: -10},{opacity:0,y:0})
-        .delay(3)
+        .delay(0)
         .fromTo(this.headingElementSpan2,2,{opacity:1,y: -10},{opacity:0,y: 0})
         .fromTo(this.headingElementSpan3,1,{opacity:1},{opacity:0})
         .fromTo(this.scrollElement,1,{opacity:1},{opacity:0}).play();
