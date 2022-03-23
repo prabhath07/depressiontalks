@@ -1,0 +1,21 @@
+.app{
+  display: flex;
+  grid-template-columns: 1fr min(99ch, 100%) 1fr;
+  min-block-size: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.app > *{
+  grid-column: 2;
+}
+.full-bleed {
+  width:100%;
+  grid-column: 1 / 4;
+}
+
+@media screen and (max-width: 980px){
+  .app{
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,22 @@
+.app3{
+    display: flex;
+    max-width: 70vw;
+    margin-left: 5vh;
+    max-height: 100vh;
+}
+
+.question-text{
+    /* margin-bottom: 35px; */
+    font-size: 2em;
+}
+#ans{
+
+    /* margin-left: 10vw; */
+
+}
+.bottom{
+    margin-left: 10vw;
+}
+.startover{
+    max-width: 30vw;
+}

@@ -1,0 +1,85 @@
+.app2{
+    display:flex;
+    align-items: center; 
+    justify-content:space-around;
+    height: 100vh;
+    width:100vw;
+    flex-direction: column;
+}
+.h1
+ { color: #ffffff; 
+font-family: 'Lato', sans-serif; 
+font-size: 30vh; 
+font-weight: 300;
+line-height: 58px; 
+margin: 0 0 58px; 
+}
+
+
+.s2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width : 100vw;
+    height:50vh;
+}
+
+
+.secondary{
+    max-width: 17vw;
+    margin-top: 5vh;
+    font-size: 50%;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+    /* text-decoration: none; */
+    text-decoration-color: #ffffff;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10vh; 
+}
+
+.upload{
+    background-color:rgba(255,255,255,0.3);
+    width:25vw;
+    height: 40vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.questions{
+    background-color:rgba(255,255,255,0.3);
+    width:25vw;
+    height: 40vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-decoration-color: #ffffff;
+
+}
+
+.imscan{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3398/3398929.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+.question-text{
+    font-family: sans-serif;
+    margin-bottom: 3vh;
+}
